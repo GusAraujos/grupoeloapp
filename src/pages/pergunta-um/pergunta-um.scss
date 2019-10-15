@@ -29,7 +29,7 @@ page-pergunta-um {
 
   footer{
     width: 100%;
-    height: 80px;
+    height: 85px;
     bottom: 0;
     position: absolute;
     background-image: url(../assets/imgs/bottom.png);
@@ -44,14 +44,15 @@ page-pergunta-um {
   }
 
   .img-margin-right{
-    margin-right: 10%;
+    margin-right: 120px;
   }
 
   .btns{
-    width: 100%;
+    width: 95%;
     text-align: center;
     position: absolute;
-    bottom: 7%;
+    bottom: 0;
+    margin-bottom: 100px;
   }
 
 
