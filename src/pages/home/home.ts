@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  onPerguntaUm(): void{
+    this.navCtrl.push('PerguntaUmPage');
+  }
+
 }
