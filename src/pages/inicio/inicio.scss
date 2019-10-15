@@ -1,0 +1,12 @@
+page-inicio {
+  .background-img-1{
+    background-image: url(../assets/imgs/bg01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .no-scroll .scroll-content{
+    overflow: hidden;
+  }
+}
