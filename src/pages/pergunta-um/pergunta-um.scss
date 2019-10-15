@@ -36,6 +36,8 @@ page-pergunta-um {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    padding: 0px;
+    margin: 0px;
   }
 
   .img-bg{
@@ -44,15 +46,14 @@ page-pergunta-um {
   }
 
   .img-margin-right{
-    margin-right: 120px;
+    margin-right: 70px;
   }
 
   .btns{
     width: 95%;
     text-align: center;
     position: absolute;
-    bottom: 0;
-    margin-bottom: 100px;
+    bottom: 7%;
   }
 
 
