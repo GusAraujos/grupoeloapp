@@ -14,3 +14,16 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+@font-face {
+  font-family: 'Exo';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../assets/fonts/Exo2-Mediumitalic.eot');
+  src: url('../assets/fonts/Exo2-Mediumitalic?#iefix') format('embedded-opentype'),
+  local('Lato Light'),
+  local('Lato-300'),
+  url('../assets/fonts/Exo2-Mediumitalic.woff2') format('woff2'),
+  url('../assets/fonts/Exo2-Mediumitalic.woff') format('woff'),
+  url('../assets/fonts/Exo2-Mediumitalic.ttf') format('truetype'),
+  url('../assets/fonts/Exo2-Mediumitalic.svg#Lato') format('svg');
+  }

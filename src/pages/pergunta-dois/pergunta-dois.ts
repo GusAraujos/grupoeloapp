@@ -15,11 +15,44 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
 })
 export class PerguntaDoisPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl:AlertController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad PerguntaDoisPage');
+  }
+
+  onPerguntaTres(): void{
+    this.navCtrl.push('PerguntaTresPage');
+  }
+
+  openTodoAlert() {
+    let alert = this.alertCtrl.create({
+      cssClass: "custom-alert",
+      title: 'Parabéns!',
+      subTitle: 'Você acertou.',
+      buttons: [{
+        text: 'Continuar',
+        cssClass: 'btn-ok',
+        handler: () => {
+          this.onPerguntaTres()
+        }
+      }]
+    });
+    alert.present();
+  }
+
+  openTodoAlertErro() {
+    let alert = this.alertCtrl.create({
+      cssClass: "custom-alert",
+      title: 'Ah que pena!',
+      subTitle: 'Você errou.',
+      buttons: [{
+        text: 'Tentar novamente',
+        cssClass: 'btn-ok'
+      }]
+    });
+    alert.present();
   }
 
 }
